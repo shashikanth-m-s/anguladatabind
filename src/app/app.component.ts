@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'anguladatabind';
+  message="welcome to angular two way binding";
+  greeting=" ";
+  onClick(){
+    this.greeting=" welcome to event binding";
+  }
 }
